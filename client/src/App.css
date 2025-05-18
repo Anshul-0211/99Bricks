@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  .font-outline-2{
+    -webkit-text-stroke: 0.5px white;
+    -webkit-text-fill-color: transparent; 
+  }
+
+}
+
+
+@theme{
+  --font-outfit: 'Outfit', sans-serif;
+}
